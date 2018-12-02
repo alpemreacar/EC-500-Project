@@ -1,5 +1,4 @@
 # Example gitignore from https://gist.github.com/octocat/9257657
-data/
 # Compiled source #
 ###################
 *.com
