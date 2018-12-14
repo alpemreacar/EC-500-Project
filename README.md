@@ -18,13 +18,13 @@ Test results from datasets can be found in *code/v5_cycleGAN/Pictures/Test/*
   - Create folders named as:
     - *code/v5_cycleGAN/Pictures/Test/dataset_name/testA/*
     - *code/v5_cycleGAN/Pictures/Test/dataset_name/testB/*
-    - *code/v5_cycleGAN/Pictures/Traning/dataset_name/*
-    - *models/v5_CycleGAN/dataset_name/*
+    - *code/v5_cycleGAN/Pictures/Training/dataset_name/*
+    - *models/v5_CycleGAN/*
   - Modify dataset variable in *code/v5_cycleGAN/train.py* and *code/v5_cycleGAN/test.py* to *dataset_name*.
   - Run *code/v5_cycleGAN/train.py*.
-    - It saves losses in *code/v5_cycleGAN/loss_arr/*.
-    - It saves random generated images after each epoch in *code/v5_cycleGAN/Pictures/Traning/dataset_name/*.
-    - It saves model in *models/v5_CycleGAN/dataset_name*.
+    - It saves losses in *code/v5_cycleGAN/loss_arr/* and logs in *code/v5_cycleGAN/loss_log/*.
+    - It saves random generated images after each epoch in *code/v5_cycleGAN/Pictures/Training/dataset_name/*.
+    - It saves model in *models/v5_CycleGAN/*.
  - Run *code/v5_cycleGAN/test.py*.
     - It saves generated images in *code/v5_cycleGAN/Pictures/Test/dataset_name/*.
  - Run *code/v5_cycleGAN/plot.py* for a training loss plot.
