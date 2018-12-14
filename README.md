@@ -1,19 +1,19 @@
 # Deep Learning Course Project, Fall 2018
 
-This repository contains [CycleGAN](https://junyanz.github.io/CycleGAN/) implementation. The repository has GAN and CycleGAN architectures and their test results.
+This repository contains [CycleGAN](https://junyanz.github.io/CycleGAN/) implementation code. The repository has GAN and CycleGAN architectures along with their test results.
 
-The repository doesn't contain cycleGAN models and datasets due to their sizes. It has a simple GAN model in models folder.
+The repository doesn't contain CycleGAN models and tested datasets due to their sizes. It has a simple GAN model in the *models* folder.
 
-Open jupyter file *code/v3_GAN.ipynb* to see GAN structure tested on MNIST. This model is saved, it can be used without training as shown in the jupyter notebook.
+Open the jupyter file *code/v3_GAN.ipynb* to see the GAN structure tested on the MNIST dataset. This model is saved and it can be used without training as shown in the jupyter notebook.
 
-In addition to GAN and CycleGAN scripts, the repository also has processing code for pix2pix datasets, test results for a pretrained pix2pix model on day2nigth dataset and evaluation code for calculating MSE and SSIM scores.
+In addition to GAN and CycleGAN scripts, the repository also has processing code for the day2night dataset, test results for a pretrained pix2pix model on the day2night dataset and the evaluation code for calculating MSE and SSIM scores.
 
-Test results from datasets can be found in *code/v5_cycleGAN/Pictures/Test/*
+Test results from the datasets can be found in *code/v5_cycleGAN/Pictures/Test/*.
 
 ### How to run?
 
   - Clone the repository.
-  - Put your dataset under foldder *data/dataset_name*. 
+  - Put your dataset under folder *data/dataset_name*. 
     - It should have subfolders as *testA*, *testB*, *trainA*, *trainB* with corresponding images.
   - Create folders named as:
     - *code/v5_cycleGAN/Pictures/Test/dataset_name/testA/*
