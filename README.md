@@ -13,6 +13,7 @@ Test results from the datasets can be found in *code/v5_cycleGAN/Pictures/Test/*
 ### How to run?
 
   - Clone the repository.
+  - Create folder *data*
   - Put your dataset under folder *data/dataset_name*. 
     - It should have subfolders as *testA*, *testB*, *trainA*, *trainB* with corresponding images.
   - Create folders named as:
